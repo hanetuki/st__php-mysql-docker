@@ -1,0 +1,5 @@
+<?php
+const MAX_LENGTH_PASSWORD = 16;
+const MIN_LENGTH_PASSWORD = 8;
+
+?>
