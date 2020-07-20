@@ -12,5 +12,5 @@ user_id int unsigned NOT NULL COMMENT 'ユーザID',
 text text NOT NULL COMMENT '投稿テキスト',
 create_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '作成日時',
 updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '更新日時',
-FOREIGN KEY user_id REFERENCES users(id))
+FOREIGN KEY user_id REFERENCES users(id)
 );
